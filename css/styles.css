@@ -10,13 +10,45 @@
     --primary-white-color: #ffffff;
 }
 
+/* others*/
+*,
+*::before,
+*::after{
+    box-sizing: content-box;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     color: var(--primary-dark-color);
     background-color: var(--primary-white-color);
 }
 
+/*reset*/
+h1,h2,h3,h4,h5,h6, p{
+    margin: 0;
+}
+ul,
+ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 72px;
+    outline: 2px solid red;
+    outline-offset: -2px;
+}
+
+
 /* header section */
+.header{
+border-bottom: 1px solid #E7E9FC;
+}
 .logo-blue {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -75,7 +107,11 @@ body {
 /* hero section */
 .hero {
     background-color:var(--primary-branddark-color);
-}
+    padding-top: 184px;
+    padding-bottom:184px;
+    
+    }
+
 
 .hero-title {
     font-size: 56px;
@@ -83,6 +119,8 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--primary-white-color);
+    margin:  0 auto;
+    margin-bottom: 48px;
 }
 
 .hero-btn {
@@ -105,6 +143,9 @@ body {
 }
 
 /* section 1 */
+.section{
+    padding: 120px;
+}
 .titlest {
     font-weight: 500;
     font-size: 20px;
@@ -128,11 +169,13 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--primary-branddark-color);
+    padding-bottom: 120px;
 }
 
 /* section-3 */
 .section-team {
     background-color:var(--primary-cloud-color);
+    padding-bottom: 120px 0;
 }
 
 .title {
@@ -166,6 +209,7 @@ body {
 /* footer section */
 .footer {
     background-color:var(--primary-branddark-color);
+    padding: 100px 0;
 }
 
 .logo-white {
@@ -183,6 +227,10 @@ body {
 }
 
 /* portfolio */
+.portfolio-section{
+    padding: 96px 0 120px 0;
+
+}
 /* button section */
 .btn-section {
     font-family: "Roboto", sans-serif;
