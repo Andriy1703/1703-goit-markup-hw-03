@@ -188,7 +188,10 @@ border-bottom: 1px solid #E7E9FC;
 .strategy-list{
     display: flex;
     gap: 24px;
-}
+    }
+    .section-item{
+    width: calc((100% - 72px) / 4)
+    }
 
 .titlest {
     font-weight: 500;
@@ -220,9 +223,6 @@ padding-bottom: 120px;
     color: var(--primary-branddark-color);
     margin-bottom: 72px;
 }
-.titlsection{
-    padding: 40px;
-}
 .class-list{
     display: flex;
     gap: 24px;
@@ -235,7 +235,7 @@ padding-bottom: 120px;
 /* section-3 */
 .section-team {
     background-color:var(--primary-cloud-color);
-    padding-bottom: 120px 0;
+    padding: 120px 0;
 }
 .team-working{
     display: flex;
@@ -335,6 +335,7 @@ margin-bottom: 72px;
     flex-wrap: wrap;
     row-gap: 48px;
     padding: 0;
+    column-gap: 24px;
 }
 .company-foto{
     width: calc((100% - 48px) / 3);
