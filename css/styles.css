@@ -44,7 +44,7 @@ ol{
 }
 img{
     display: block;
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
@@ -148,7 +148,7 @@ border-bottom: 1px solid #E7E9FC;
     color: var(--primary-white-color);
     margin:  0 auto;
     margin-bottom: 48px;
-    max-width: 496px;
+    width: 496px;
     font-size: 56px;
 }
 
@@ -162,7 +162,7 @@ border-bottom: 1px solid #E7E9FC;
     color: var(--primary-white-color);
     background-color: var(--primary-brand-color);
     margin: 0 auto;
-    min-width: 169px;
+    width: 169px;
     display: block;
     height: 56px;
     border: none;
