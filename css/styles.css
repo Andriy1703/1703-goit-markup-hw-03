@@ -136,7 +136,6 @@ border-bottom: 1px solid #E7E9FC;
     background-color:var(--primary-branddark-color);
     padding-top: 188px;
     padding-bottom:188px;
-    
     }
 
 
@@ -278,9 +277,12 @@ padding: 32px 0px;
     letter-spacing: 0.02em;
     color: var(--primary-cloud-color);
 }
+.logo-footer{
+    margin-bottom: 16px;
+}
 .link {
     text-decoration: none;
-    margin-bottom: 16px;
+    
 }
 
 .footer-text {
